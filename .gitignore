@@ -1,0 +1,34 @@
+# ===== Node Modules (Both Backend + Frontend) =====
+node_modules/
+
+# ===== Environment Variables =====
+.env
+Backend/.env
+Frontend/.env
+
+# ===== Build Outputs (React/Vite/Next etc.) =====
+dist/
+build/
+Frontend/dist/
+Frontend/build/
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ===== OS Files =====
+.DS_Store
+
+# ===== Editor Settings =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ===== Misc =====
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
