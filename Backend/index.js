@@ -6,8 +6,8 @@ const app = express();
 console.log(ENV.PORT);
 console.log(ENV.DB_URL);
 
-app.get("/", (req, res) => {
-  res.status(200).json({ msg: "success from Backend 123424" });
+app.get("/health", (req, res) => {
+  res.status(200).json({ msg: "API is up and runing" });
 });
 
 app.listen(ENV.PORT, () =>
